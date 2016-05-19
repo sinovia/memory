@@ -1,0 +1,90 @@
+/* Page Structure*/
+
+
+body {
+  background-color: #3F51b5;
+}
+
+.wrapper {
+  border: 1px dashed black;
+  margin-left: 32px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+  height: 1200px;
+
+}
+
+.GameTitle {
+  text-align: center;
+border: 1px solid black;
+width: 380px;
+margin-top: 50px;
+margin-right: 922px;
+margin-left: 540px;
+color: white;
+font-family:Orbitron;
+font-weight: 400px;
+font-size: 70px;
+width: 380px;
+
+}
+
+.timer {
+text-align: center;
+border: 1px dashed black;
+width: 75px;
+margin-top: 108px;
+margin-right: 922px;
+margin-left: 922px;
+color: white;
+font-family:Orbitron;
+width: 380px;
+}
+
+.lifebar {
+text-align: center;
+border: 1px dashed black;
+width: 75px;
+margin-top: -10px;
+margin-right: 212px;
+margin-left: 31px;
+color: white;
+font-family:Orbitron;
+width: 380px;
+}
+
+/* The card and its flip */
+.card {
+  width: 200px;
+  height: 200px;
+  background: steelblue;
+  display: block;
+  transition: background 1s, transform 1s;
+
+}
+
+
+input {
+  width:200px;
+  height: 200px;
+  display: none;
+
+}
+
+input:checked +.card {
+  background: lightcoral;
+  transform: rotateY(180deg);
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  height: 200px;
+  width: 200px;
+  padding-top: 75px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+/* The card and its flip */
