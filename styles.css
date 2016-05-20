@@ -5,18 +5,17 @@ body {
   background-color: #3F51b5;
 }
 
-.wrapper {
+.gamewrapper {
   border: 1px dashed black;
-  margin-left: 32px;
-  margin-right: 35px;
   margin-bottom: 30px;
-  height: 1200px;
+  margin-top: 50px;
+  height: 600px;
 
 }
 
 .GameTitle {
+  border: 1px solid black;
   text-align: center;
-border: 1px solid black;
 width: 380px;
 margin-top: 50px;
 margin-right: 922px;
@@ -30,43 +29,46 @@ width: 380px;
 }
 
 .timer {
-text-align: center;
-border: 1px dashed black;
+border: dotted 1px black;
+text-align: right;
 width: 75px;
-margin-top: 108px;
 margin-right: 922px;
-margin-left: 922px;
+margin-left: 980px;
 color: white;
 font-family:Orbitron;
 width: 380px;
 }
 
 .lifebar {
-text-align: center;
-border: 1px dashed black;
+border: dotted 1px black;
+text-align: left;
 width: 75px;
-margin-top: -10px;
 margin-right: 212px;
 margin-left: 31px;
 color: white;
 font-family:Orbitron;
 width: 380px;
+font-size: 12px;
 }
 
-/* The card and its flip */
+/*Card 1 and its flip */
 .card {
-  width: 200px;
-  height: 200px;
-  background: steelblue;
+  width: 230px;
+  height: 230px;
+  background: #7986cb;
+  color: white;
   display: block;
   transition: background 1s, transform 1s;
+  border-radius: 15px;
+  padding: 5px, 5px, 5px, 5px;
+  margin: 5px;
 
 }
 
 
 input {
-  width:200px;
-  height: 200px;
+  width:240px;
+  height: 240px;
   display: none;
 
 }
@@ -76,15 +78,40 @@ input:checked +.card {
   transform: rotateY(180deg);
 }
 
+
+
 .icon {
-  color: white;
+  color: #7986cb;
   font-size: 40px;
-  height: 200px;
-  width: 200px;
+  height: 230px;
+  width: 230px;
   padding-top: 75px;
   text-align: center;
   vertical-align: middle;
   line-height: 20px;
 }
 
-/* The card and its flip */
+/*Card 2 and its flip */
+.card2 {
+  width: 230px;
+  height: 230px;
+  background: #7986cb;
+  color: white;
+  display: block;
+  transition: background 1s, transform 1s;
+  border-radius: 15px;
+
+}
+
+
+input {
+  width:240px;
+  height: 240px;
+  display: none;
+
+}
+
+input:checked +.card2 {
+  background: lightcoral;
+  transform: rotateY(180deg);
+}
