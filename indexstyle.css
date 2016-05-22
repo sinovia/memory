@@ -1,0 +1,92 @@
+body {
+  background-color: #4FAEC4;
+}
+
+.intro {
+    margin-top: 275px;
+    position: absolute;
+    margin-right: 914px;
+    margin-left: 522px;
+}
+
+
+.flip {
+  -webkit-animation-duration:10s;
+  animation-iteration-count: 1;
+  animation-delay: 5s;
+}
+
+.newgame {
+  font-family:Orbitron;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.GameTitle {
+  text-align: center;
+color: white;
+font-family:Orbitron;
+font-weight: 400px;
+font-size: 70px;
+width: 380px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parallelogram {
+  border: 5px white solid;
+   width: 300px;
+   height: 65px;
+   background: #4FAEC4;
+   text-align: center;
+   /* Skew */
+   -webkit-transform: skew(-20deg);
+   margin:20px;
+}
+
+.parallelogram:hover {
+  border: 5px white solid;
+   width: 300px;
+   height: 65px;
+   background: white;
+   text-align: center;
+   /* Skew */
+   -webkit-transform: skew(-20deg);
+   margin:20px;
+}
+
+.parallelogram2 {
+  border: 5px white solid;
+   width: 300px;
+   height: 65px;
+   background: #4FAEC4;
+   text-align: center;
+   /* Skew */
+   -webkit-transform: skew(20deg);
+   margin: 20px;
+}
+
+.parallelogram2:hover {
+     border: 5px white solid;
+      width: 300px;
+      height: 65px;
+      background: white;
+      text-align: center;
+      /* Skew */
+      -webkit-transform: skew(20deg);
+      margin: 20px;
+    }
+
+  .modetext {
+      color:white;
+      padding-top: 20px;
+      font-family:Orbitron;
+      font-size: 20px;
+    }
+
+  .modetext:hover {
+    color: gray;
+  }
