@@ -1,4 +1,4 @@
-/* Page Structure*/
+/* Body and Game Wrapper*/
 
 
 body {
@@ -14,6 +14,14 @@ body {
 
 }
 
+.flip {
+  animation-iteration-count: 2;
+}
+
+audio {
+   display:none;
+}
+
 .GameTitle {
   text-align: center;
 width: 380px;
@@ -27,7 +35,7 @@ font-size: 70px;
 width: 380px;
 
 }
-
+/* Timer*/
 .timer {
 text-align: right;
 width: 75px;
@@ -49,7 +57,7 @@ width: 380px;
 font-size: 12px;
 }
 
-/*Card 1 and its flip */
+/*The cards and their flip */
 .card {
   width: 230px;
   height: 230px;
@@ -63,21 +71,21 @@ font-size: 12px;
 
 }
 
-
+/* Checkbox*/
 input {
   width:240px;
   height: 240px;
   display: none;
 
 }
-
+/* When Clicked*/
 input:checked +.card {
   background: #b8bdd6;
   transform: rotateY(180deg);
 }
 
 
-
+/* Icon Properties*/
 .icon {
   color: #7986cb;
   font-size: 40px;

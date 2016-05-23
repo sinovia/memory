@@ -11,10 +11,14 @@
     <link href="http://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
 </head>
 
+<body>
+    <audio autoplay src="http://www.televisiontunes.com/uploads/audio/Rugrats.mp3" controls>
+        <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    </audio>
     <div class="GameTitle">
         <h1>Mem<i class="fa fa-lightbulb-o" aria-hidden="true"></i>ry</h1>
     </div>
-
+<!--Timer and Life Bar-->
     <div class="header">
         <div class="timer"> 00:02:10</div>
         <div class="lifebar">
@@ -31,9 +35,9 @@
             <i class="fa fa-heart" aria-hidden="true"></i>
             <i class="fa fa-heart" aria-hidden="true"></i>
         </div>
-
-        <div class="gamewrapper">
-<!---Row 1----------------------->
+<!--The Game Itself-->
+        <div class="animated flip gamewrapper">
+            <!---Row 1----------------------->
             <table>
                 <tr>
                     <!--Tile1-1-->
@@ -89,7 +93,7 @@
                                 </div>
                     </td>
                 </tr>
-<!---Row 2----------------------->
+                <!---Row 2----------------------->
                 <!--Tile2-1 -->
                 <td>
                     <div class="pane">
@@ -144,7 +148,7 @@
                 </td>
                 </tr>
 
-<!---Row 3----------------------->
+                <!---Row 3----------------------->
                 <!--Tile3-1 -->
                 <tr>
                     <td>

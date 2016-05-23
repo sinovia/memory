@@ -2,6 +2,7 @@ body {
   background-color: #4FAEC4;
 }
 
+/* Intro Text*/
 .intro {
     margin-top: 275px;
     position: absolute;
@@ -10,12 +11,12 @@ body {
 }
 
 
-.flip {
-  -webkit-animation-duration:10s;
+/* Animation*/
+.wobble {
   animation-iteration-count: 1;
-  animation-delay: 5s;
+  animation-duration: 15s
 }
-
+/* New Game Button*/
 .newgame {
   font-family:Orbitron;
   font-size: 25px;
@@ -23,6 +24,7 @@ body {
   text-align: center;
 }
 
+/* Memory Text*/
 .GameTitle {
   text-align: center;
 color: white;
@@ -35,7 +37,7 @@ width: 380px;
 a {
   text-decoration: none;
 }
-
+/* Easy Button*/
 .parallelogram {
   border: 5px white solid;
    width: 300px;
@@ -46,7 +48,7 @@ a {
    -webkit-transform: skew(-20deg);
    margin:20px;
 }
-
+/* Easy button hovers*/
 .parallelogram:hover {
   border: 5px white solid;
    width: 300px;
